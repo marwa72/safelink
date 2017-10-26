@@ -264,7 +264,7 @@ function auto_safeconvert() {
 
             var encryptedUrl = Base64.encode(a_to_vi);
 
-            a_to_ve[i].href = "http://gameapps-android.me/savelink.html?url=" + encryptedUrl;
+            a_to_ve[i].href = "http://gameapps-android.me/savelink?url=" + encryptedUrl;
 
             a_to_ve[i].rel = "nofollow";
 
